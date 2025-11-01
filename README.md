@@ -19,8 +19,8 @@ Open http://localhost:5000
 ```
 docker build -t flask-app:v1 .
 docker run -d -p 5000:5000 flask-zarnn:v1
-Open http://localhost:5000
 ```
+Open http://localhost:5000
 
 ### Docker Hub
 ```docker run -d -p 5000:5000 Zarnnonly/flask-zarnn:v1```
